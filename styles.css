@@ -35,9 +35,6 @@ nav {
     background-color: #1c2d3b!important;
 }
 
-header h1 {
-    margin: 15px;
-}
 /* Hero Image class altered from W3 School */
 .hero-image {
     
@@ -53,21 +50,21 @@ header h1 {
     position: relative;
   }
   
-  /* Place text in the middle of the image */
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
+/* Place text in the middle of the image */
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
 
 
 /* Styles for main content section elements */
-section {
+
+main {
     margin: 20px;
-    padding 10px;
 }
 
 section h2 {
