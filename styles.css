@@ -76,11 +76,30 @@ color: white;
 
 /* Styles for main content section elements */
 
-
+.container {
+    padding-bottom: 20px;
+}
 section h2 {
     text-align: center;
 }
 
+aside {
+    padding-bottom: 10px;
+}
+
+ul {
+    padding-left: 0;
+    line-height: 28px;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside a:hover{
+    text-decoration: underline;
+    color: rgb(0, 99, 212);
+}
 /* Footer Styles */
 
 footer {
@@ -89,28 +108,25 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
-    padding: 5px 20px;
+    padding: 0px 20px;
     height: auto;
     font-size: 10px;
-    margin: 0px;
-
 }
 
 .legal {
     float: left;
 }
 footer p {
-    margin: 0px;
+    margin: 5px 0px;
     padding: 0px;
 }
 
-figcaption {
-    text-align: center;
-}
+
 
 .social {
     float: right;
     text-align: right;
+    margin: 5px 0px;
 }
 
 .socialScale:hover {
@@ -129,9 +145,6 @@ figcaption {
      -webkit-transition-duration: 0.5s;
      -moz-transition-duration: 0.5s;
      -o-transition-duration: 0.5s;
+     color: white;
 
-}
-
-i {
-    color: white;
 }
