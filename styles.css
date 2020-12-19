@@ -63,10 +63,33 @@ color: white;
 
 /* Styles for main content section elements */
 
-main {
-    margin: 20px;
-}
-
 section h2 {
     text-align: center;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: rgb(179, 179, 179);
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 5px 20px;
+    height: auto;
+}
+
+footer p {
+    color: white;
+    margin: 0px;
+    font-size: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.social {
+    float: right;
+    text-align: right;
 }
