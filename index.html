@@ -14,14 +14,14 @@
     </head>
 
     <body>
-        <!--Navbar header-->
+        <!-- Navbar header with collapsable "hamburger" on responsive -->
         <header>
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
                 <a class="navbar-brand" href="index.html">Frank Merchlewitz</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            
+                
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
@@ -37,7 +37,7 @@
                 </div>
             </nav>  
         </header>
-        
+        <!--End Header-->
         <!-- Hero Image -->
         <figure class="hero-image" title="Frank Merchlewitz Banner Image">
             <figcaption class="hero-text">
@@ -45,14 +45,13 @@
                 <p>Because that's my name</p>
             </figcaption>
         </figure>
-
         <!-- Main content section -->
-
         <main class="container">
             <h1>About Me</h1>
             <div class = "row">
                 <div class="col-xl-9">
                     <section class="col-md-12">
+                        <!-- Bio -->
                         <article>
                             <p>
                             My Name is Frank Merchlewitz, and I'm a musician and video producer from Minneapolis, Minnesota. I grew up in Winona, Minnesota, and graduated from Drake University in Des Moines, Iowa, in 2010 with bachelor's degrees in Writing and Electronic Media and a minor in Jazz Studies. My current role is as Digital Producer for the Minnesota Orchestra, filming concerts and working post-production on our live concert broadcasts.
@@ -62,6 +61,7 @@
                             </p>
                         </article>
                     </section>
+                    <!-- About my beautiful boys/cat stats -->
                     <section class="row row-no-gutters">
                         <figure class="col-md-6">
                             <img src ="assets/Smokey.jpg"  />
@@ -93,6 +93,8 @@
                         </figure>
                     </section>
                 </div>
+                <!-- End Main Content Section -->
+                <!-- Sidebar content with links to some bands I'm in -->
                 <aside class="col-xl-3">
                     <div class="card">
                         <div class="card-body">
@@ -111,11 +113,10 @@
                         </div>
                     </div>
                 </aside>
-                
             </div>
         </main>
-
         <div class="clearfix"></div>
+        <!-- End of main content section. "Clearfix" solution from bootstrap sets up a clean sticky footer below-->
         <footer class="footer">
             <article class="col-sm-9 legal">
               <p>All rights Reserved © Frank Merchlewitz 2020</p>
@@ -131,6 +132,5 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
     </body>
 </html>
