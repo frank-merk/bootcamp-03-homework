@@ -1,4 +1,4 @@
-/* Media Query for no-gutters xs */
+/* Media Query for no-gutters xs specified in Assignment */
 
 @media (max-width: 978px) {
     .container {
@@ -27,6 +27,8 @@ p {
     font-weight: normal;
 }
 
+/* Responsive Image Styling */
+
 img {
     margin: 0 auto;
     height: auto;
@@ -36,38 +38,32 @@ img {
     padding: 5px 0;
 }
 
-/* Section divider pulled from css tricks */
-
-
 /* Styles for header elements */
-
-
 
 nav {
     padding: 20px;
 }
 
 .bg-dark {
-    background-color: #1c2d3b!important;
+    background-color: #1c2d3b!important; /* Override dark theme from black to navy */
 }
-
 
 /* Hero Image class altered from W3 School */
 .hero-image {
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Assets/bkgdImage.jpg");
   
-    /* Set a specific height */
+    /* Sets custom height */
 
     height: 50%;
-    /* Position and center the image to scale nicely on all screens */
+    /* Position and center the image, for responsive */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
   
-/* Place text in the middle of the image */
+/* Center the Image */
 .hero-text {
     text-align: center;
     position: absolute;
@@ -152,25 +148,19 @@ footer p {
     -transform: scale(1.1);
 }
 
+/* Portfolio page specific styles */
+
+/* Styles the spotify playlists */
 .spotify {
     border: 0;
     width: 100%;
     height: 200px;
 }
 
+
+/* Centers and sizes the youtube iframes responsively */
 iframe {
     display: block;
     margin: 0 auto;
-    height: 56.25%;
-
-    
-}
-
-.embed-responsive {
-    width: 100%;
-
-}
-
-.embed-responsive-16by9 {
-    width: 100%;
+    height: 56.25%; /* 16:9 aspect */
 }
